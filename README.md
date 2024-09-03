@@ -2,6 +2,12 @@
 
 This project uses https://github.com/apereo/phpCAS, which is unmaintained since last June (2024). This shouldn't matter for the test. 
 
+## Installation
+
+Use PHP 8, I'm using PHP 8.3.
+
+To install the required package, run `composer install`.
+
 ## Test isn't completed.
 
 I haven't been able to completely test the CAS-authentication flow. This is because I dont have a valid service URL, and I send whatever URL this script is hosted on to the ECAS. (See cas_settings.php, $service_base_url)
